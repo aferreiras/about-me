@@ -5,13 +5,19 @@ import styled from "styled-components"
 export const MainContainer = styled.article`
   background: linear-gradient(180deg, #ffffff, #b3b3b3, #666666);
   color: black;
-  padding: 100px 25% 50px 25%;
+  display: flex;
+  flex-direction: row;
 `
-
-export const AboutMe = styled.div`
-  h1 {    
-    padding-bottom: 15px;
-  }
+export const SidebarContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+`
+export const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px 15vw 50px 15vw;
 `
 
 export const Divider = styled.hr`
